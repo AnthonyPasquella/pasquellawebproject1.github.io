@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  color: forestgreen;
+  color: #006400;
   font-size: 20px;
   font-weight: 400;
   font-style: italic;
@@ -206,7 +206,7 @@ width: 33%;
 
 .grid__item {
   display: grid;
-  background-color: lightpink;
+  background-color: #ffb6c1;
   width: auto;
   min-height: auto;
   margin: 0;
