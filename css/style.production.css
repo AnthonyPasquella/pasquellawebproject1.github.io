@@ -268,14 +268,8 @@ text-decoration: underline;
   grid-column: auto / auto;
   grid-row: auto / auto;
 }
+}
 
-h2 {
-  font-size: 10px;
-}
-h1 {
-  font-size: 20px;
-}
-}
 @keyframes color-change {
 0% {
   fill: #edc655;
