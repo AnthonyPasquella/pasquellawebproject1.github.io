@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border-radius: 25px;
 }
 
 body {
@@ -24,6 +25,7 @@ h2 {
   font-weight: 400;
   font-style: italic;
   text-decoration: none;
+  
 }
 
 
@@ -199,8 +201,8 @@ width: 33%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
-  margin: 50;
   padding: 25px;
+
 
 }
 
@@ -211,6 +213,9 @@ width: 33%;
   min-height: auto;
   margin: 0;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  border-radius: 25px;
+ 
 }    
 
 .grid__item:last-child {
@@ -267,18 +272,6 @@ text-decoration: underline;
 .grid__item:last-child {
   grid-column: auto / auto;
   grid-row: auto / auto;
-}
-}
-
-@keyframes color-change {
-0% {
-  fill: #edc655;
-}
-50% {
-  fill: #fcffad;
-}
-100% {
-  fill: #f76414
 }
 }
 @keyframes color-change {
